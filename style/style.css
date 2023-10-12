@@ -1,0 +1,290 @@
+.flogo {
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hul {
+    display: flex;
+    margin-right: 23px;
+    margin-top: 40px;
+}
+
+.hli {
+    padding: 5px;
+    list-style: none;
+}
+
+.list {
+    text-decoration: none;
+    color: black;
+}
+
+.list:hover {
+    color: orangered;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homePart {
+    margin-top: 100px;
+}
+
+.headding {
+    margin-left: 8px;
+    margin-top: 13px;
+}
+
+.ALAN {
+    font-size: 50px;
+}
+
+.second-name {
+    color: orangered;
+}
+
+.DOWNLOAD-CV {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    font-size: bold;
+}
+
+.sideimg {
+    position: absolute;
+    height: 80%;
+    width: 45%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.sideimg img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    border: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.sideimg:hover .back {
+    bottom: 40px;
+}
+
+.sideimg:hover .girl {
+    left: 40%;
+}
+
+.about {
+    margin-top: 300px;
+}
+
+.aboutdiv {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.about h3 {
+    color: green;
+}
+
+.about-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+
+.dtls {
+    margin-top: 60px;
+}
+
+.icon {
+    margin-top: -140px;
+    margin-left: 800px;
+
+}
+
+.icon i {
+    font-size: 20px;
+    
+}
+.skills{
+    margin-top: 2cqh;
+
+}
+.skillhead{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.skills h3{
+    color: green;
+}
+.y{
+    background-color: yellow;
+    height: 5px;
+    width: 300px;
+    border-radius: 100px;
+}
+.bl{
+    background-color: black;
+    height: 5px;
+    width: 20px;
+    border-radius: 100px;
+
+
+
+}
+.skillbody{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+
+
+
+}
+.skillpercetage{
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+.sname{
+    margin-top: -30px;
+}
+.sperc{
+    margin-top: -30px;
+    margin-left: 276px;
+
+
+    
+}
+.skillimg{
+    display: flex;
+    margin-left: -300px;
+}
+.aboutheading{
+    margin-left: 650px;
+
+}
+
+.y1{
+    background-color: yellow;
+    height: 5px;
+    width: 280px;
+    border-radius: 100px;
+}
+.bl1{
+    background-color: black;
+    height: 5px;
+    width: 40px;
+    border-radius: 100px;
+
+
+
+}
+.y2{
+    background-color: yellow;
+    height: 5px;
+    width: 280px;
+    border-radius: 100px;
+
+    
+
+}
+.bl2{
+    background-color: black;
+    height: 5px;
+    width: 40px;
+    border-radius: 100px;
+
+    
+
+
+
+
+}
+.skillimg1{
+    display: flex;
+    margin-left: -330px;
+
+
+}
+.y3{
+    background-color: yellow;
+    height: 5px;
+    width: 280px;
+    border-radius: 100px;
+
+    
+
+}
+.bl3{
+    background-color: black;
+    height: 5px;
+    width: 40px;
+    border-radius: 100px;
+}
+.skillimg2{
+    display: flex;
+    margin-left:-320px ;
+
+}
+.perce{
+    margin-left: -200px;
+
+}
+.footerhead{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.footerhead h3{
+    color: green;
+}
+.footerbody{
+    margin-top: 75px;
+    margin-left: 550px;
+}
+.footerIcon i{
+    font-size: 50px;
+    padding: 10px;
+    color: black;
+}
+.footerIcon i:hover{
+    color: orangered;
+    animation: shake 1s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+
+}
+.abus{
+    align-items: center;
+}
+.foo{
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+
